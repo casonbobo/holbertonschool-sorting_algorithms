@@ -20,5 +20,9 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
+void print_list(const listint_t *int);
+void print_array(const int *array, size_t size);
+
 void bubble_sort(int *array, size_t size);
+
 #endif

@@ -1,9 +1,9 @@
 #include "sort.h"
 /**
- *
- *
- *
- *
+ *bubble_sort - a sorting algorithm that uses bubbles
+ *@array: the array that gets pulled in
+ *@size: the size of said array
+ *Return: just a print please
  */
 void bubble_sort(int *array, size_t size)
 {
